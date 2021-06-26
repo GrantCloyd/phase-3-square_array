@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  array2 = []
+  array.each{|elem| array2  <<  elem * elem}
+array2
 end
+
+puts square_array([1,2,3]).inspect
